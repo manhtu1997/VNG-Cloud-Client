@@ -3,6 +3,7 @@ package io.github.manhtu1997.vng_cloud_client.request;
 import io.github.manhtu1997.vng_cloud_client.model.LogAggregation;
 import io.github.manhtu1997.vng_cloud_client.model.LogQuery;
 import io.github.manhtu1997.vng_cloud_client.model.LogSort;
+import io.github.manhtu1997.vng_cloud_client.model.TypeValue;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -19,6 +20,6 @@ public class SearchLogRequest {
     List<LogSort> sorts;
     Integer size;
     Integer from;
-    LogQuery query;
+    TypeValue query;
     List<LogAggregation> aggregations;
 }

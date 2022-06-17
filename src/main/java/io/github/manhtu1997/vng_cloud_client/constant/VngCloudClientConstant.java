@@ -6,6 +6,10 @@ public interface VngCloudClientConstant {
         String clientCredentials="client_credentials";
     }
 
+    interface Scope {
+        String email="email";
+    }
+
     interface Service {
         String logApiUrl = "logApiUrl";
     }

@@ -15,7 +15,8 @@ public class LogServiceImpl extends BaseService implements LogService {
 
     @Override
     public String searchLogs(SearchLogRequest searchLogRequest)throws HttpHandledException {
-        return post(String.format("%s/v1/logs/search", clientConfig.getBaseUrl()), searchLogRequest,String.class);
+        return post(String.format("%s/v1/projects/%s/search-logs", clientConfig.getBaseUrl(),searchLogRequest.getProjectId())
+                , searchLogRequest,String.class);
     }
 
     @Override

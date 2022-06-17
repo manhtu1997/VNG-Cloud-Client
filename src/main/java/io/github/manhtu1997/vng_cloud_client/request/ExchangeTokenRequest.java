@@ -14,4 +14,5 @@ public class ExchangeTokenRequest {
     String code;
     String refreshToken;
     String redirectUri;
+    String scope;
 }

@@ -6,7 +6,7 @@
 
     <groupId>io.github.manhtu1997</groupId>
     <artifactId>vng-cloud-client</artifactId>
-    <version>1.0.19</version>
+    <version>1.0.21</version>
 
     <build>
         <plugins>
@@ -113,7 +113,7 @@
         <developer>
             <name>Nguyen Manh Tu</name>
             <email>manhtu1997@gmail.com</email>
-            <organization>com.vng_cloud.eng</organization>
+            <organization>io.github.manhtu1997</organization>
             <organizationUrl>https://github.com/manhtu1997/</organizationUrl>
         </developer>
     </developers>
